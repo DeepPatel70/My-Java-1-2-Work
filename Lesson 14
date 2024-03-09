@@ -1,0 +1,99 @@
+// Java lesson 14 problem set
+
+import java.util.Scanner; 
+
+ 
+
+public class Lesson14
+
+{ 
+
+    public static void main (String args[]) 
+
+    {    
+
+        System.out.println("Decimal"+"\t"+"\t"+"Binary"+"\t"+"\t"+"Octal"+"\t"+"\t"+"Hex"+"\t"+"\t"+"Character");   // this just prints the header   
+
+         
+
+         
+
+        int j; 
+
+        for (j=65;j<=90;j++) // this just starts it at a and goes through until its finds z 
+
+     
+
+        { 
+
+            int ch = j; // setting a number variable to j so i can convert it into char 
+
+            char df = (char)(ch);// converting the number into char so that the output is a letter and not a number 
+
+            System.out.println(j+"\t"+"\t"+Integer.toString(j, 2)+"\t"+"\t"+Integer.toString(j,8)+"\t"+"\t"+Integer.toString(j, 16)+"\t"+"\t"+ df);//prints the numbers and letters out in order with 2 tabs between each command 
+
+        } 
+
+} 
+
+} 
+
+ 
+
+ 
+
+OUTPUT: 
+
+Decimal		Binary		Octal		Hex		Character 
+
+65		1000001		101		41		A 
+
+66		1000010		102		42		B 
+
+67		1000011		103		43		C 
+
+68		1000100		104		44		D 
+
+69		1000101		105		45		E 
+
+70		1000110		106		46		F 
+
+71		1000111		107		47		G 
+
+72		1001000		110		48		H 
+
+73		1001001		111		49		I 
+
+74		1001010		112		4a		J 
+
+75		1001011		113		4b		K 
+
+76		1001100		114		4c		L 
+
+77		1001101		115		4d		M 
+
+78		1001110		116		4e		N 
+
+79		1001111		117		4f		O 
+
+80		1010000		120		50		P 
+
+81		1010001		121		51		Q 
+
+82		1010010		122		52		R 
+
+83		1010011		123		53		S 
+
+84		1010100		124		54		T 
+
+85		1010101		125		55		U 
+
+86		1010110		126		56		V 
+
+87		1010111		127		57		W 
+
+88		1011000		130		58		X 
+
+89		1011001		131		59		Y 
+
+90		1011010		132		5a		Z 
